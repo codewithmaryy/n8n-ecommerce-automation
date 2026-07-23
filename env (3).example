@@ -1,0 +1,27 @@
+# Rename this file to .env and fill in your own values.
+# Never commit your real .env file to GitHub.
+
+# WooCommerce
+WOOCOMMERCE_STORE_URL=https://yourstore.com
+WOOCOMMERCE_CONSUMER_KEY=ck_your_consumer_key_here
+WOOCOMMERCE_CONSUMER_SECRET=cs_your_consumer_secret_here
+LOW_STOCK_THRESHOLD=10
+
+# SendGrid
+SENDGRID_API_KEY=your_sendgrid_api_key_here
+SENDGRID_FROM_EMAIL=orders@yourstore.com
+SENDGRID_FROM_NAME=Your Store Name
+
+# Slack
+SLACK_BOT_TOKEN=your_slack_bot_token_here
+SLACK_WAREHOUSE_CHANNEL=C000000001
+SLACK_PURCHASING_CHANNEL=C000000002
+
+# Google Sheets
+GOOGLE_SHEETS_CREDENTIALS=path_to_your_google_credentials.json
+GOOGLE_SHEET_ID=your_google_sheet_id_here
+GOOGLE_SHEET_TAB=Order Log
+
+# PDF Invoice Generation
+PDFMONKEY_API_KEY=your_pdfmonkey_api_key_here
+PDFMONKEY_TEMPLATE_ID=your_invoice_template_id_here
